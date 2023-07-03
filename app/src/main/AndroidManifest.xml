@@ -27,7 +27,8 @@
             android:name="io.microshow.rxffmpeg.app.activity.LaunchActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.Launcher">
+            android:theme="@style/AppTheme.Launcher"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -37,6 +38,12 @@
 
         <activity
             android:name="io.microshow.rxffmpeg.app.activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:exported="true"
+            android:name="com.squareup.leakcanary.internal.DisplayLeakActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:screenOrientation="portrait" />
 
