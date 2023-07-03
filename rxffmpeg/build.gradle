@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion compileSdkValue
+    compileSdkVersion 33
     defaultConfig {
-        minSdkVersion minSdkValue
-        targetSdkVersion targetSdkValue
-        versionCode versionCodeValue
-        versionName versionNameValue
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 //        externalNativeBuild {
 //            cmake {
